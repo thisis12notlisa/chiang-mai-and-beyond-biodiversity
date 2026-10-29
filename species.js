@@ -11,7 +11,7 @@ const speciesData = [
 
         photo: [
             "https://github.com/thisis12notlisa/chiang-mai-and-beyond-biodiversity/blob/e0e6e14d58f4cf2459a96c94041aa5fe5573bf11/IMG_8635.jpeg",
-            "IMG_0639 2.JPG",
+            "https://github.com/thisis12notlisa/chiang-mai-and-beyond-biodiversity/blob/40a1f6dcaefbc765cd65d8d8ca11277385345aa5/IMG_0639%202.JPG",
             "IMG_0647 2.JPG",
             "IMG_0648 2.JPG"
         ],

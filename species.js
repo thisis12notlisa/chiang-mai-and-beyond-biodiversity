@@ -10,7 +10,7 @@ const speciesData = [
         habitat: "Grasslands, gardens, forests, and open areas",
 
         photo: [
-            "images/butterfly/IMG_8635.jpeg",
+            "IMG_8635.jpeg",
             "images/butterfly/IMG_0639 2.JPG",
             "images/butterfly/IMG_0647 2.JPG",
             "images/butterfly/IMG_0648 2.JPG"

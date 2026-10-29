@@ -10,7 +10,7 @@ const speciesData = [
         habitat: "Grasslands, gardens, forests, and open areas",
 
         photo: [
-            "IMG_8635.jpeg",
+            "https://github.com/thisis12notlisa/chiang-mai-and-beyond-biodiversity/blob/166727a7ebea63d6765385f41940a1cbb286c08a/IMG_8635.jpeg",
             "images/butterfly/IMG_0639 2.JPG",
             "images/butterfly/IMG_0647 2.JPG",
             "images/butterfly/IMG_0648 2.JPG"

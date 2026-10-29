@@ -11,9 +11,9 @@ const speciesData = [
 
         photo: [
             "IMG_8635.jpeg",
-            "images/butterfly/IMG_0639 2.JPG",
-            "images/butterfly/IMG_0647 2.JPG",
-            "images/butterfly/IMG_0648 2.JPG"
+            "IMG_0639 2.JPG",
+            "IMG_0647 2.JPG",
+            "IMG_0648 2.JPG"
         ],
 
         overview:

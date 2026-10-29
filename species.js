@@ -262,7 +262,7 @@ const speciesData = [
         habitat: "Usually grows on decaying or dead wood, especially in humid tropical and subtropical forests. The fruiting bodies are small, yellow to orange, gelatinous, and typically spoon- or fan-shaped.",
 
         photo: [
-            "images/butterfly/spider/lizard/fly/dargonfly/fungi/IMG_0478.JPG"
+            "https://thisis12notlisa.github.io/chiang-mai-and-beyond-biodiversity/IMG_0478.JPG"
         ],
 
         overview:

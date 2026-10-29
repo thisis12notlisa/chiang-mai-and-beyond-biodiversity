@@ -1,0 +1,1087 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f6f1;
+    color: #26382f;
+    line-height: 1.6;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    height: 80px;
+    padding: 0 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    font-size: 13px;
+    color: #66756c;
+}
+
+nav a:hover {
+    color: #26382f;
+}
+
+
+.simple-header {
+    justify-content: flex-start;
+}
+
+.back-home {
+    font-size: 13px;
+    color: #66756c;
+}
+
+.back-home:hover {
+    color: #26382f;
+}
+
+
+/* =========================
+   GENERAL
+========================= */
+
+main {
+    width: 86%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.small-title {
+    font-size: 10px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #75857b;
+    font-weight: 600;
+    margin-left: 9px;
+    margin-top: 5px;
+}
+
+
+/* =========================
+   HOME HERO
+========================= */
+
+.hero {
+    min-height: 680px;
+    display: grid;
+    grid-template-columns: 0.65fr 2fr 1.1fr 0.7fr;
+    align-items: center;
+    gap: 35px;
+    padding: 70px 0 110px;
+}
+
+.hero-label {
+    font-size: 9px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #75857b;
+    line-height: 1.8;
+}
+
+.hero-title {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(48px, 6vw, 82px);
+    line-height: 0.98;
+    letter-spacing: -0.04em;
+}
+
+.hero-description {
+    color: #6c7a72;
+    font-size: 14px;
+    max-width: 250px;
+}
+
+.explore-link {
+    font-size: 12px;
+    color: #53675b;
+    border-bottom: 1px solid #8b988f;
+    padding-bottom: 5px;
+    width: fit-content;
+}
+
+
+/* =========================
+   HOME INTRO
+========================= */
+
+.intro {
+    padding: 100px 0 80px;
+    border-top: 1px solid #d5dad3;
+    max-width: 800px;
+}
+
+.intro h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 40px;
+    line-height: 1.15;
+    font-weight: 400;
+    margin: 18px 0 25px;
+}
+
+.intro > p:last-child {
+    color: #6c7a72;
+    max-width: 600px;
+}
+
+
+/* =========================
+   HOME CARDS
+========================= */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-bottom: 110px;
+}
+
+.card {
+    min-height: 310px;
+    background: #e8ece5;
+    border-radius: 18px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.25s, background 0.25s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    background: #e1e7df;
+}
+
+.card-number {
+    font-size: 11px;
+    color: #7b897f;
+}
+
+.card h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 65px 0 12px;
+}
+
+.card p {
+    color: #69776f;
+    font-size: 13px;
+    max-width: 270px;
+}
+
+.card span {
+    margin-top: auto;
+    font-size: 11px;
+}
+
+
+/* =========================
+   PROJECT
+========================= */
+
+.project-page {
+    max-width: 900px;
+    padding: 70px 0 120px;
+}
+
+.project-page h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(55px, 7vw, 85px);
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    margin: 18px 0 30px;
+}
+
+.project-intro {
+    font-size: 18px;
+    color: #69776f;
+    max-width: 680px;
+    margin-bottom: 90px;
+}
+
+.project-block {
+    border-top: 1px solid #d5dad3;
+    padding: 65px 0;
+}
+
+.project-block h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 37px;
+    font-weight: 400;
+    margin: 12px 0 25px;
+}
+
+.project-block > p:not(.small-title) {
+    color: #69776f;
+    max-width: 700px;
+    margin-bottom: 18px;
+}
+
+.project-columns,
+.source-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 35px;
+}
+
+.project-columns h3,
+.source-columns h3 {
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.project-columns p,
+.source-columns p {
+    color: #69776f;
+    font-size: 13px;
+}
+
+.last-block {
+    padding-bottom: 0;
+}
+
+
+/* =========================
+   SPECIES OVERVIEW
+========================= */
+
+.species-page,
+.notes-page,
+.map-page {
+    padding: 70px 0 120px;
+}
+
+.species-page h1,
+.notes-page h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(55px, 7vw, 85px);
+    font-weight: 400;
+    line-height: 1;
+    margin: 18px 0;
+}
+
+.page-intro {
+    color: #69776f;
+    max-width: 650px;
+    margin-bottom: 55px;
+}
+
+.species-tools {
+    background: #e8ece5;
+    border-radius: 15px;
+    padding: 22px;
+    margin-bottom: 35px;
+}
+
+.species-tools input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #b8c1ba;
+    background: transparent;
+    padding: 10px 2px;
+    outline: none;
+    font-size: 14px;
+    color: #26382f;
+    margin-bottom: 20px;
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 4px;
+}
+
+.filters button {
+    border: 1px solid #b8c1ba;
+    background: transparent;
+    border-radius: 20px;
+    padding: 7px 14px;
+    cursor: pointer;
+    font-size: 11px;
+    color: #5f7066;
+}
+
+.filters button.active,
+.filters button:hover {
+    background: #3d5548;
+    border-color: #3d5548;
+    color: white;
+}
+
+.species-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.species-card {
+    background: #e8ece5;
+    border-radius: 17px;
+    overflow: hidden;
+    transition: transform 0.25s;
+}
+
+.species-card:hover {
+    transform: translateY(-5px);
+}
+
+.species-photo {
+    height: 260px;
+    background: #d5ddd5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #718076;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+}
+
+/* =========================
+   SPECIES PHOTO
+========================= */
+
+.species-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.species-content {
+    padding: 30px 32px 34px;
+}
+
+.species-category {
+    font-size: 9px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #748278;
+    margin-bottom: 8px;
+}
+
+.species-content h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 0 0 5px 8px;
+}
+
+.species-scientific {
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    color: #748278;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.view-species {
+    display: block;
+    margin-top: 23px;
+    font-size: 11px;
+    color: #53675b;
+}
+
+
+/* =========================
+   SPECIES DETAIL
+========================= */
+
+.detail-page {
+    max-width: 1000px;
+    padding: 70px 0 120px;
+}
+
+.detail-page h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(50px, 7vw, 80px);
+    font-weight: 400;
+    line-height: 1;
+    margin: 18px 0 5px;
+}
+
+.scientific-name {
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    color: #748278;
+    font-size: 18px;
+    margin-bottom: 55px;
+    margin-left: 8px;
+    margin-top: 1px;
+}
+
+.detail-top {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 25px;
+    margin-bottom: 80px;
+}
+
+.detail-photo {
+    min-height: 440px;
+    border-radius: 18px;
+    background: #d5ddd5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #718076;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+}
+
+/* =========================
+   DETAIL PHOTO
+========================= */
+
+.detail-photo img,
+.photo-carousel img {
+    max-width: 90%;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+}
+
+.photo-carousel {
+    min-height: 440px;
+    border-radius: 18px;
+    background: #d5ddd5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.carousel-btn {
+    border: none;
+    background: #e8ece5;
+    color: #26382f;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.carousel-btn:hover {
+    background: #dce3da;
+}
+
+.photo-counter {
+    text-align: center;
+    font-size: 13px;
+    color: #68756d;
+    margin-top: 10px;
+}
+
+.species-facts {
+    background: #e8ece5;
+    border-radius: 18px;
+    padding: 25px;
+}
+
+.species-facts div {
+    padding: 20px 0;
+    border-bottom: 1px solid #cbd2cb;
+}
+
+.species-facts div:last-child {
+    border-bottom: none;
+}
+
+.species-facts span {
+    display: block;
+    font-size: 9px;
+    letter-spacing: 0.14em;
+    color: #748278;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.species-facts strong {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.detail-block {
+    border-top: 1px solid #d5dad3;
+    padding: 60px 0;
+}
+
+.detail-block h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 12px 0 18px;
+}
+
+.detail-block > p:last-child {
+    color: #69776f;
+    max-width: 700px;
+}
+
+
+/* =========================
+   FIELD NOTES
+========================= */
+
+.notes-list {
+    border-top: 1px solid #d5dad3;
+}
+
+.note {
+    padding: 40px 0;
+    border-bottom: 1px solid #d5dad3;
+    max-width: 800px;
+}
+
+.note-number {
+    font-size: 9px;
+    letter-spacing: 0.15em;
+    color: #748278;
+}
+
+.note h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 34px;
+    font-weight: 400;
+    margin: 12px 0;
+}
+
+.note p:not(.note-number) {
+    color: #69776f;
+    margin-bottom: 20px;
+}
+
+.note span {
+    font-size: 11px;
+}
+
+
+/* =========================
+   MAP
+========================= */
+
+.map-page h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(50px, 7vw, 80px);
+    line-height: 1;
+    font-weight: 400;
+    margin: 18px 0;
+}
+
+.map-box {
+    height: 530px;
+    background: #e1e6df;
+    border-radius: 18px;
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.map-label {
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: #718076;
+}
+
+.map-box h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 35px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.map-box p:last-child {
+    color: #718076;
+    font-size: 13px;
+}
+
+.map-information {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-top: 55px;
+}
+
+.map-information h3 {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.map-information p:last-child {
+    color: #69776f;
+    font-size: 13px;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    border-top: 1px solid #d5dad3;
+    padding: 28px 7%;
+    color: #7a877f;
+    font-size: 10px;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 800px) {
+
+    header {
+        height: auto;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        gap: 20px;
+    }
+
+    nav {
+        gap: 14px;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        min-height: auto;
+        gap: 25px;
+        padding: 90px 0;
+    }
+
+    .hero-title {
+        font-size: 55px;
+    }
+
+    .hero-description {
+        max-width: 500px;
+    }
+
+    .cards,
+    .species-grid,
+    .project-columns,
+    .source-columns,
+    .detail-top,
+    .map-information {
+        grid-template-columns: 1fr;
+    }
+
+    .intro h2 {
+        font-size: 33px;
+    }
+
+    .detail-photo {
+        min-height: 350px;
+    }
+
+    .photo-carousel {
+        min-height: 350px;
+    }
+}
+
+/* =========================
+   DETAIL IMAGE
+========================= */
+
+.detail-image-wrapper {
+    position: relative;
+    max-width: 90%;
+    max-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail-image-wrapper img {
+    max-width: 100%;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    cursor: zoom-in;
+}
+
+.zoom-icon {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: rgba(245, 246, 241, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #26382f;
+    font-size: 18px;
+    pointer-events: none;
+}
+
+
+/* =========================
+   IMAGE LIGHTBOX
+========================= */
+
+.image-lightbox {
+    position: fixed;
+    inset: 0;
+    background: rgba(30, 40, 34, 0.92);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    z-index: 9999;
+    cursor: zoom-out;
+}
+
+.image-lightbox.active {
+    display: flex;
+}
+
+.image-lightbox img {
+    max-width: 92vw;
+    max-height: 90vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 40px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.species-card-content h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 0 0 5px 8px;
+    margin-bottom: -2px;
+}
+
+
+
+/* ------------------------------
+   Type filters
+------------------------------ */
+
+.type-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 14px;
+    padding-left: 2px;
+}
+
+.type-filters button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #34443d;
+
+    background: transparent;
+    border: 1px solid #b8c4bd;
+    border-radius: 20px;
+
+    padding: 6px 13px;
+
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.type-filters button:hover {
+    background: #edf2ee;
+    border-color: #8fa49a;
+}
+
+.type-filters button.active {
+    background: #dfe9e2;
+    border-color: #8fa49a;
+    color: #26372f;
+}
+
+/* ==============================
+   Biodiversity Map
+   ============================== */
+
+.map-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 6% 80px;
+}
+
+
+.page-intro {
+    max-width: 760px;
+    margin-bottom: 30px;
+}
+
+
+.page-intro h1 {
+    font-family: Georgia, serif;
+    font-size: 42px;
+    font-weight: 400;
+    margin: 8px 0 14px;
+}
+
+
+.page-intro > p:last-child {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #5c6962;
+}
+
+
+/* ------------------------------
+   Map filters
+   ------------------------------ */
+
+.map-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    margin-bottom: 18px;
+}
+
+
+.map-filters button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+
+    color: #34443d;
+
+    background: transparent;
+
+    border: 1px solid #b8c4bd;
+    border-radius: 20px;
+
+    padding: 7px 14px;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease;
+}
+
+
+.map-filters button:hover {
+    background: #edf2ee;
+    border-color: #8fa49a;
+}
+
+
+.map-filters button.active {
+    background: #dfe9e2;
+    border-color: #8fa49a;
+    color: #26372f;
+}
+
+
+/* ------------------------------
+   Map
+   ------------------------------ */
+
+.biodiversity-map {
+    width: 100%;
+    height: 600px;
+
+    border-radius: 4px;
+
+    overflow: hidden;
+
+    border: 1px solid #d5ddd8;
+}
+
+
+/* ------------------------------
+   Map info
+   ------------------------------ */
+
+.map-info {
+    margin-top: 12px;
+}
+
+
+#observationCount {
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 12px;
+
+    color: #68756e;
+
+    margin: 0;
+}
+
+
+/* ------------------------------
+   Popup
+   ------------------------------ */
+
+.map-popup {
+    min-width: 180px;
+}
+
+
+.map-popup .popup-category {
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 10px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.08em;
+
+    color: #708178;
+
+    margin: 0 0 5px;
+}
+
+
+.map-popup h3 {
+    font-family: Georgia, serif;
+
+    font-size: 18px;
+
+    font-weight: 400;
+
+    color: #26372f;
+
+    margin: 0 0 3px;
+}
+
+
+.map-popup .popup-scientific {
+    font-family: Georgia, serif;
+
+    font-size: 13px;
+
+    font-style: italic;
+
+    color: #68756e;
+
+    margin: 0 0 12px;
+}
+
+
+.map-popup p {
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 12px;
+
+    line-height: 1.5;
+
+    color: #4f5d55;
+
+    margin: 5px 0;
+}
+
+.popup-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #526b5d;
+    text-decoration: underline;
+
+    cursor: pointer;
+}
+
+.popup-link:hover {
+    color: #26372f;
+    border-color: #526b5d;
+}
+
+/* ------------------------------
+   Mobile
+   ------------------------------ */
+
+@media (max-width: 700px) {
+
+    .map-page {
+        padding: 40px 5% 60px;
+    }
+
+
+    .page-intro h1 {
+        font-size: 32px;
+    }
+
+
+    .biodiversity-map {
+        height: 450px;
+    }
+
+}
+
+.map-link {
+    display: inline-block;
+    margin-top: 18px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #526b5d;
+    text-decoration: none;
+
+    border-bottom: 1px solid #aebdb4;
+    padding-bottom: 3px;
+
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.map-link:hover {
+    color: #26372f;
+    border-color: #526b5d;
+}

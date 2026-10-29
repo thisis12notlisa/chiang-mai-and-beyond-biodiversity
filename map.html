@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Chiang Mai & Beyond</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+    <!-- Leaflet -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+
+</head>
+
+
+<body>
+
+    <header class="simple-header">
+        <a href="index.html"
+           class="back-link">
+            ← Home
+        </a >
+
+    </header>
+
+
+    <main class="map-page">
+
+        <section class="page-intro">
+
+            <p class="small-title">
+                BIODIVERSITY MAP
+            </p >
+
+            <h1>
+                Chiang Mai & Beyond
+            </h1>
+
+            <p>
+                A spatial record of biodiversity observations
+                across different habitats and locations in
+                Chiang Mai and beyond.
+            </p >
+
+        </section>
+
+
+        <!-- Category filters -->
+
+        <div class="map-filters"
+             id="mapFilters">
+
+            <button
+                class="active"
+                data-category="All">
+                All
+            </button>
+
+            <button
+                data-category="Birds">
+                Birds
+            </button>
+
+            <button
+                data-category="Mammals">
+                Mammals
+            </button>
+
+            <button
+                data-category="Reptiles">
+                Reptiles
+            </button>
+
+            <button
+                data-category="Amphibians">
+                Amphibians
+            </button>
+
+            <button
+                data-category="Insects">
+                Insects
+            </button>
+
+            <button
+                data-category="Arachnids">
+                Arachnids
+            </button>
+
+            <button
+                data-category="Plants">
+                Plants
+            </button>
+
+            <button
+                data-category="Other">
+                Other
+            </button>
+
+        </div>
+
+
+        <!-- Map -->
+
+        <div
+            id="biodiversityMap"
+            class="biodiversity-map">
+        </div>
+
+
+        <!-- Map information -->
+
+        <div class="map-info">
+
+            <p id="observationCount">
+                0 observations
+            </p >
+
+        </div>
+
+    </main>
+
+
+    <!-- Leaflet -->
+
+    <script
+        src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+    </script>
+
+
+    <!-- Your map data -->
+
+    <script
+        src="map.js">
+    </script>
+
+</body>
+
+</html>

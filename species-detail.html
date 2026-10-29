@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Species Detail | Chiang Mai Biodiversity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="simple-header">
+    <a href="species.html" class="back-home">← Species</a >
+</header>
+
+
+<main class="detail-page">
+
+    <p class="small-title" id="detailCategory">
+        BIRD
+    </p >
+
+    <h1 id="detailName">
+        Oriental Magpie-Robin
+    </h1>
+
+    <p class="scientific-name" id="detailScientific">
+        Copsychus saularis
+    </p >
+
+
+   <div class="photo-carousel">
+    <button class="carousel-btn" onclick="prevPhoto()">←</button>
+
+    <div class="detail-image-wrapper">
+        <img id="speciesPhoto" src="" alt="Species photograph">
+        <span class="zoom-icon">⌕</span>
+    </div>
+
+    <button class="carousel-btn" onclick="nextPhoto()">→</button>
+</div>
+
+<p id="photoCounter" class="photo-counter"></p >
+
+<div id="imageLightbox" class="image-lightbox">
+    <button id="lightboxClose" class="lightbox-close">×</button>
+    <img id="lightboxImage" src="" alt="Enlarged species photograph">
+</div>
+
+
+        <div class="species-facts">
+
+            <div>
+                <span>Family</span>
+                <strong id="detailFamily">
+                    Muscicapidae
+                </strong>
+            </div>
+
+            <div>
+                <span>Habitat</span>
+                <strong id="detailHabitat">
+                    Gardens, forests, urban areas
+                </strong>
+            </div>
+
+            <div>
+                <span>Region</span>
+                <strong>
+                    Chiang Mai
+                </strong>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <section class="detail-block">
+
+        <p class="small-title">OVERVIEW</p >
+
+        <h2>Overview</h2>
+
+        <p id="detailOverview"></p >
+
+    </section>
+
+
+    <section class="detail-block">
+
+        <p class="small-title">IDENTIFICATION</p >
+
+        <h2>Identification</h2>
+
+        <p id="detailIdentification"></p >
+
+    </section>
+
+
+    <section class="detail-block">
+
+        <p class="small-title">ECOLOGY</p >
+
+        <h2>Habitat & Ecology</h2>
+
+        <p id="detailEcology"></p >
+
+    </section>
+
+
+    <section class="detail-block">
+
+        <p class="small-title">DISTRIBUTION</p >
+
+        <h2>Distribution</h2>
+
+        <p id="detailDistribution"></p >
+
+    </section>
+
+</main>
+
+<a
+    id="viewOnMap"
+    class="map-link"
+    href="map.html"
+>
+    View on Map →
+</a>
+
+
+<footer>
+    Chiang Mai & Beyond Biodiversity Project
+</footer>
+
+
+<script src="species.js"></script>
+
+
+
+</body>
+</html>

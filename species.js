@@ -1600,7 +1600,7 @@ function displaySpecies(species) {
             <div class="species-photo">
                 ${
                     item.photo && item.photo.length > 0
-                    ? `< img src="${item.photo[0].startsWith("http") ? item.photo[0] : "https://thisis12notlisa.github.io/chiang-mai-and-beyond-biodiversity/" + item.photo[0].split("/").pop()}" alt="${item.name}">`
+                    ? `< img src="${item.photo[0]}" alt="${item.name}">`
                     : `<span>Species photograph</span>`
                 }
             </div>

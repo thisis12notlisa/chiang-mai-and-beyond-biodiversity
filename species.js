@@ -10,10 +10,10 @@ const speciesData = [
         habitat: "Grasslands, gardens, forests, and open areas",
 
         photo: [
-            "https://github.com/thisis12notlisa/chiang-mai-and-beyond-biodiversity/blob/e0e6e14d58f4cf2459a96c94041aa5fe5573bf11/IMG_8635.jpeg",
-            "https://github.com/thisis12notlisa/chiang-mai-and-beyond-biodiversity/blob/40a1f6dcaefbc765cd65d8d8ca11277385345aa5/IMG_0639%202.JPG",
-            "IMG_0647 2.JPG",
-            "IMG_0648 2.JPG"
+            "images/butterfly/IMG_8635.jpeg",
+            "images/butterfly/IMG_0639 2.JPG",
+            "images/butterfly/IMG_0647 2.JPG",
+            "images/butterfly/IMG_0648 2.JPG"
         ],
 
         overview:
@@ -262,7 +262,7 @@ const speciesData = [
         habitat: "Usually grows on decaying or dead wood, especially in humid tropical and subtropical forests. The fruiting bodies are small, yellow to orange, gelatinous, and typically spoon- or fan-shaped.",
 
         photo: [
-            "https://thisis12notlisa.github.io/chiang-mai-and-beyond-biodiversity/IMG_0478.JPG"
+            "images/butterfly/spider/lizard/fly/dargonfly/fungi/IMG_0478.JPG"
         ],
 
         overview:
@@ -2219,3 +2219,4 @@ document.addEventListener(
 
     }
 );
+

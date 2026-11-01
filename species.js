@@ -10,10 +10,10 @@ const speciesData = [
         habitat: "Grasslands, gardens, forests, and open areas",
 
         photo: [
-            "https://github.com/thisis12notlisa/chiang-mai-and-beyond-biodiversity/blob/main/IMG_8635.jpeg",
-            "images/butterfly/IMG_0639 2.JPG",
-            "images/butterfly/IMG_0647 2.JPG",
-            "images/butterfly/IMG_0648 2.JPG"
+            "IMG_8635.jpeg",
+            "IMG_0639 2.JPG",
+            "IMG_0647 2.JPG",
+            "IMG_0648 2.JPG"
         ],
 
         overview:
@@ -40,9 +40,9 @@ const speciesData = [
         habitat: "Sunny open areas, forest edges, gardens, and grasslands.",
 
         photo: [
-            "images/butterfly/IMG_8643.jpeg",
-            "images/butterfly/IMG_8642.jpeg",
-            "images/butterfly/IMG_8648.jpeg"
+            "IMG_8643.jpeg",
+            "IMG_8642.jpeg",
+            "IMG_8648.jpeg"
         ],
 
         overview:
@@ -68,7 +68,7 @@ const speciesData = [
         habitat: "Shrubs and low vegetation; also found on vegetation/open surfaces",
 
         photo: [
-            "images/butterfly/spider/IMG_8627.jpeg"
+            "IMG_8627.jpeg"
         ],
 
         overview:
@@ -95,7 +95,7 @@ const speciesData = [
         habitat: "Forests, forest clearings, streamside areas and leaf-litter habitats.",
 
         photo: [
-            "images/butterfly/spider/lizard/IMG_0486.JPG"
+            "IMG_0486.JPG"
         ],
 
         overview:
@@ -122,9 +122,9 @@ const speciesData = [
         habitat: "Open forests, gardens, agricultural areas and other disturbed habitats.",
 
         photo: [
-            "images/butterfly/IMG_0457.JPG",
-            "images/butterfly/IMG_0458.JPG",
-            "images/butterfly/IMG_0498.JPG"
+            "IMG_0457.JPG",
+            "IMG_0458.JPG",
+            "IMG_0498.JPG"
         ],
 
         overview:
@@ -151,8 +151,8 @@ const speciesData = [
         habitat: "Forest and other vegetated habitats; it builds orb webs.",
 
         photo: [
-            "images/butterfly/spider/IMG_0465.JPG",
-            "images/butterfly/spider/IMG_0463.JPG"
+            "IMG_0465.JPG",
+            "IMG_0463.JPG"
         ],
 
         overview:
@@ -179,8 +179,8 @@ const speciesData = [
         habitat: "Forests and other vegetated habitats, especially around flowers and other natural resources.",
 
         photo: [
-            "images/butterfly/spider/lizard/fly/IMG_0484.JPG",
-            "images/butterfly/spider/lizard/fly/IMG_0482.JPG"
+            "IMG_0484.JPG",
+            "IMG_0482.JPG"
         ],
 
         overview:
@@ -207,8 +207,8 @@ const speciesData = [
         habitat: "Marshes, ponds, streams, rivers, forest streams, plantations and canals; it occurs in both upland and lowland habitats.",
 
         photo: [
-            "images/butterfly/spider/lizard/fly/dargonfly/IMG_0472.JPG",
-            "images/butterfly/spider/lizard/fly/dargonfly/IMG_0473.JPG"
+            "IMG_0472.JPG",
+            "IMG_0473.JPG"
         ],
 
         overview:
@@ -235,7 +235,7 @@ const speciesData = [
         habitat: "Open forests, forest edges, grasslands, agricultural areas, orchards, gardens and parks.",
 
         photo: [
-            "images/butterfly/IMG_0500.JPG"
+            "IMG_0500.JPG"
         ],
 
         overview:
@@ -262,7 +262,7 @@ const speciesData = [
         habitat: "Usually grows on decaying or dead wood, especially in humid tropical and subtropical forests. The fruiting bodies are small, yellow to orange, gelatinous, and typically spoon- or fan-shaped.",
 
         photo: [
-            "images/butterfly/spider/lizard/fly/dargonfly/fungi/IMG_0478.JPG"
+            "IMG_0478.JPG"
         ],
 
         overview:
@@ -289,7 +289,7 @@ const speciesData = [
         habitat: "Forests, forest edges and other vegetated habitats, particularly in hilly and mountainous areas.",
 
         photo: [
-            "images/butterfly/IMG_8660.jpeg"
+            "IMG_8660.jpeg"
         ],
 
         overview:
@@ -316,7 +316,7 @@ const speciesData = [
         habitat: "Open woodland, forest edges, grasslands, scrubland, agricultural areas and gardens.",
 
         photo: [
-            "images/butterfly/IMG_8637.jpg"
+            "IMG_8637.jpg"
         ],
 
         overview:
@@ -342,10 +342,10 @@ const speciesData = [
         habitat: "Wetlands, rice fields, shallow marshes, lakes, irrigation canals and flooded agricultural land.",
 
         photo: [
-            "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/IMG_0604 2.JPG",
-            "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/IMG_0585 2.JPG",
-            "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/IMG_1091.JPG",
-            "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/IMG_1094.JPG"
+            "IMG_0604 2.JPG",
+            "IMG_0585 2.JPG",
+            "IMG_1091.JPG",
+            "IMG_1094.JPG"
         ],
 
         overview:
@@ -371,7 +371,7 @@ const speciesData = [
         habitat: "Forests, forest edges and wooded areas.",
 
         photo: [
-            "images/butterfly/IMG_0644 2.JPG"
+            "IMG_0644 2.JPG"
         ],
 
         overview:
@@ -397,8 +397,8 @@ const speciesData = [
         habitat: "Forests, forest edges, gardens and other vegetated habitats.",
 
         photo: [
-            "images/butterfly/spider/IMG_0652.JPG",
-            "images/butterfly/spider/IMG_0658.JPG"
+            "IMG_0652.JPG",
+            "IMG_0658.JPG"
         ],
 
         overview:
@@ -424,9 +424,9 @@ const speciesData = [
         habitat: "Ponds, lakes and forested streams, especially areas with shaded vegetation.",
 
         photo: [
-            "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/featherleg/IMG_0689.JPG",
-            "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/featherleg/IMG_0670.JPG",
-            "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/featherleg/IMG_0695.JPG"
+            "IMG_0689.JPG",
+            "IMG_0670.JPG",
+            "IMG_0695.JPG"
         ],
 
         overview:
@@ -452,7 +452,7 @@ const speciesData = [
         habitat: "Ponds, lakes, slow-moving streams and other freshwater habitats.",
 
         photo: [
-            "images/butterfly/spider/lizard/fly/dargonfly/IMG_0703.JPG"
+            "IMG_0703.JPG"
         ],
 
         overview:
@@ -478,7 +478,7 @@ const speciesData = [
         habitat: "Shaded forest streams and small flowing waterways.",
 
         photo: [
-            "images/butterfly/spider/lizard/fly/dargonfly/IMG_0707.JPG"
+            "IMG_0707.JPG"
         ],
 
         overview:
@@ -504,7 +504,7 @@ const speciesData = [
         habitat: "Forested streams, ponds, shallow streams and vegetation along waterways.",
 
         photo: [
-            "images/butterfly/spider/lizard/fly/dargonfly/IMG_0712.JPG"
+            "IMG_0712.JPG"
         ],
 
         overview:
@@ -530,9 +530,9 @@ const speciesData = [
         habitat: "Moist forests, secondary forests, forest edges, plantations and gardens with flowering plants.",
 
         photo: [
-            "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/IMG_0718.JPG",
-            "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/IMG_0719.JPG",
-            "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/IMG_0722.JPG"
+            "IMG_0718.JPG",
+            "IMG_0719.JPG",
+            "IMG_0722.JPG"
         ],
 
         overview:
@@ -558,7 +558,7 @@ const speciesData = [
         habitat: "Tropical and subtropical forests and wooded habitats.",
 
         photo: [
-            "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/featherleg/moth/IMG_0742.JPG"
+            "IMG_0742.JPG"
         ],
 
         overview:
@@ -584,7 +584,7 @@ const speciesData = [
         habitat: "Bamboo areas, forest floors, forest trails and shaded woodland.",
 
         photo: [
-            "images/butterfly/IMG_0744.JPG"
+            "IMG_0744.JPG"
         ],
 
         overview:
@@ -610,8 +610,8 @@ const speciesData = [
         habitat: "Forests and forest edges, particularly wooded areas in tropical and subtropical regions.",
 
         photo: [
-            "images/butterfly/IMG_0758.JPG",
-            "images/butterfly/IMG_0786.JPG"
+            "IMG_0758.JPG",
+            "IMG_0786.JPG"
         ],
 
         overview:
@@ -637,9 +637,9 @@ const speciesData = [
         habitat: "Forests, forest edges, clearings and areas with flowering plants.",
 
         photo: [
-            "images/butterfly/IMG_0772.JPG",
-            "images/butterfly/IMG_0773.JPG",
-            "images/butterfly/IMG_0791.JPG"
+            "IMG_0772.JPG",
+            "IMG_0773.JPG",
+            "IMG_0791.JPG"
         ],
 
         overview:
@@ -665,7 +665,7 @@ const speciesData = [
         habitat: "Rivers, streams, ponds and other freshwater habitats.",
 
         photo: [
-            "images/butterfly/spider/lizard/fly/dargonfly/IMG_0779.JPG"
+            "IMG_0779.JPG"
         ],
 
         overview:
@@ -691,7 +691,7 @@ const speciesData = [
         habitat: "Dense forests, forest edges and shaded wooded areas.",
 
         photo: [
-            "images/butterfly/IMG_0790.JPG"
+            "IMG_0790.JPG"
         ],
 
         overview:
@@ -717,8 +717,8 @@ const speciesData = [
         habitat: "Dry and semi-humid areas, forest edges, rocky woodland and open areas.",
 
         photo: [
-            "images/butterfly/IMG_0813.JPG",
-            "images/butterfly/IMG_0811.JPG"
+            "IMG_0813.JPG",
+            "IMG_0811.JPG"
         ],
 
         overview:
@@ -744,7 +744,7 @@ const speciesData = [
         habitat: "Forests, forest edges, clearings and other wooded habitats.",
 
         photo: [
-            "images/butterfly/IMG_0823.JPG"
+            "IMG_0823.JPG"
         ],
 
         overview:
@@ -770,7 +770,7 @@ const speciesData = [
         habitat: "Tropical forests, forest edges and woodland canopy.",
 
         photo: [
-            "images/butterfly/IMG_0830.JPG"
+            "IMG_0830.JPG"
         ],
 
         overview:
@@ -804,7 +804,7 @@ const speciesData = [
 
     photo: [
 
-        "images/butterfly/spider/lizard/fly/dargonfly/fungi/millipede/IMG_0546 2.JPG"
+        "IMG_0546 2.JPG"
 
     ],
 
@@ -836,7 +836,7 @@ const speciesData = [
 
     photo: [
 
-        "images/butterfly/spider/IMG_0682.JPG"
+        "IMG_0682.JPG"
 
     ],
 
@@ -868,7 +868,7 @@ const speciesData = [
 
     photo: [
 
-        "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/featherleg/moth/planthopper/IMG_0690.JPG"
+        "IMG_0690.JPG"
 
     ],
 
@@ -900,9 +900,9 @@ const speciesData = [
 
     photo: [
 
-        "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/featherleg/moth/planthopper/grasshopper/IMG_0733.JPG",
+        "IMG_0733.JPG",
 
-        "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/featherleg/moth/planthopper/grasshopper/IMG_0737.JPG"
+        "IMG_0737.JPG"
 
     ],
 
@@ -934,9 +934,9 @@ const speciesData = [
 
     photo: [
 
-        "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/featherleg/moth/IMG_0797.JPG",
+        "IMG_0797.JPG",
 
-        "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/featherleg/moth/IMG_0796.JPG"
+        "IMG_0796.JPG"
 
     ],
 
@@ -968,9 +968,9 @@ const speciesData = [
 
     photo: [
 
-        "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/featherleg/moth/planthopper/grasshopper/hoverfly/IMG_0849.JPG",
+        "IMG_0849.JPG",
 
-        "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/featherleg/moth/planthopper/grasshopper/hoverfly/IMG_0846.JPG"
+        "IMG_0846.JPG"
 
     ],
 
@@ -1002,7 +1002,7 @@ const speciesData = [
 
     photo: [
 
-        "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/featherleg/moth/IMG_0854.JPG"
+        "IMG_0854.JPG"
 
     ],
 
@@ -1033,11 +1033,11 @@ const speciesData = [
 
     photo: [
 
-        "images/butterfly/IMG_0864.JPG",
+        "IMG_0864.JPG",
 
-        "images/butterfly/IMG_0860.JPG",
+        "IMG_0860.JPG",
 
-        "images/butterfly/IMG_0871.JPG"
+        "IMG_0871.JPG"
 
     ],
 
@@ -1069,7 +1069,7 @@ const speciesData = [
 
     photo: [
 
-        "images/butterfly/IMG_0875.JPG"
+        "IMG_0875.JPG"
 
     ],
 
@@ -1101,9 +1101,9 @@ const speciesData = [
 
     photo: [
 
-        "images/butterfly/IMG_0883.JPG",
+        "IMG_0883.JPG",
 
-        "images/butterfly/IMG_0886.JPG"
+        "IMG_0886.JPG"
 
     ],
 
@@ -1135,7 +1135,7 @@ const speciesData = [
 
     photo: [
 
-        "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/featherleg/moth/planthopper/grasshopper/hoverfly/toad/IMG_0891.JPG"
+        "IMG_0891.JPG"
 
     ],
 
@@ -1167,7 +1167,7 @@ const speciesData = [
 
     photo: [
 
-        "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/featherleg/moth/planthopper/grasshopper/hoverfly/toad/bee/IMG_0896.JPG"
+        "IMG_0896.JPG"
 
     ],
 
@@ -1199,9 +1199,9 @@ const speciesData = [
 
     photo: [
 
-        "images/butterfly/spider/IMG_0908.JPG",
+        "IMG_0908.JPG",
 
-        "images/butterfly/spider/IMG_0898.JPG"
+        "IMG_0898.JPG"
 
     ],
 
@@ -1233,7 +1233,7 @@ const speciesData = [
 
     photo: [
 
-        "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/featherleg/moth/planthopper/grasshopper/hoverfly/toad/bee/ants/IMG_0905.JPG"
+        "IMG_0905.JPG"
 
     ],
 
@@ -1265,7 +1265,7 @@ const speciesData = [
 
     photo: [
 
-        "images/butterfly/IMG_0910.JPG"
+        "IMG_0910.JPG"
 
     ],
 
@@ -1297,7 +1297,7 @@ const speciesData = [
 
     photo: [
 
-        "images/butterfly/IMG_1035.JPG"
+        "IMG_1035.JPG"
 
     ],
 
@@ -1329,7 +1329,7 @@ const speciesData = [
 
     photo: [
 
-        "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/featherleg/moth/planthopper/grasshopper/hoverfly/toad/bee/ants/IMG_1027.JPG"
+        "IMG_1027.JPG"
 
     ],
 
@@ -1361,7 +1361,7 @@ const speciesData = [
 
     photo: [
 
-        "images/butterfly/IMG_1016.JPG"
+        "IMG_1016.JPG"
 
     ],
 
@@ -1393,9 +1393,9 @@ const speciesData = [
 
     photo: [
 
-        "images/butterfly/spider/lizard/fly/dargonfly/IMG_1000.JPG",
+        "IMG_1000.JPG",
 
-        "images/butterfly/spider/lizard/fly/dargonfly/IMG_1085.JPG"
+        "IMG_1085.JPG"
 
     ],
 
@@ -1427,7 +1427,7 @@ const speciesData = [
 
     photo: [
 
-        "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/IMG_1019.JPG"
+        "IMG_1019.JPG"
 
     ],
 
@@ -1459,13 +1459,13 @@ const speciesData = [
 
     photo: [
 
-        "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/IMG_0983.JPG",
+        "IMG_0983.JPG",
 
-        "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/IMG_0993.JPG",
+        "IMG_0993.JPG",
 
-        "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/IMG_0989.JPG",
+        "IMG_0989.JPG",
 
-        "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/IMG_0990.JPG"
+        "IMG_0990.JPG"
 
     ],
 
@@ -1497,7 +1497,7 @@ const speciesData = [
 
     photo: [
 
-        "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/featherleg/moth/planthopper/grasshopper/hoverfly/toad/bee/ants/gecko/IMG_0959.JPG"
+        "IMG_0959.JPG"
 
     ],
 
@@ -1529,7 +1529,7 @@ const speciesData = [
 
     photo: [
 
-        "images/butterfly/spider/lizard/fly/dargonfly/fungi/bird/IMG_0961.JPG"
+        "IMG_0961.JPG"
 
     ],
 
@@ -2219,4 +2219,3 @@ document.addEventListener(
 
     }
 );
-

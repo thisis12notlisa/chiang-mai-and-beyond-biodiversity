@@ -1621,7 +1621,32 @@ const speciesData = [
         distribution:
             "The genus Athyma occurs across tropical and subtropical Asia, including Thailand. The distribution of this particular butterfly cannot be determined until the species is confirmed."
     },
+    {
+        id: "gracupica-floweri",
+        name: "Siamese Pied Starling",
+        scientificName: "Gracupica floweri",
+        category: "Birds",
+        type: "Bird",
+        family: "Sturnidae",
+        habitat: "Open farmland, grasslands, rice fields, wetland edges and areas near villages",
 
+        photo: [
+            "IMG_1033.JPG",
+            "IMG_1034.JPG"
+        ],
+
+        overview:
+            "The Siamese Pied Starling is a medium-sized bird in the starling family. It has bold black and white plumage and is found in open country in Thailand. It is closely related to the Asian Pied Starling and was once treated as the same species.",
+
+        identification:
+            "Adults have a black head, neck and upper breast, a white belly and white patches on the wings. The bill is mostly yellow or orange with a dark base, and there is a patch of bare skin around the eye. The Asian Pied Starling can look similar, so the face and bill pattern help separate them.",
+
+        ecology:
+            "This starling forages on the ground in open areas, often in small flocks, feeding on insects, seeds and fruit. It is often seen on farmland, grazing land and rice fields. It nests in trees and may build large, untidy nests of grass and other plant material.",
+
+        distribution:
+            "Found in Thailand and parts of neighbouring mainland Southeast Asia, mainly in the central and eastern lowlands. Its exact range should be checked against a reliable source, such as eBird or a Thailand bird checklist."
+    }
 ];
 
 // ==================================================

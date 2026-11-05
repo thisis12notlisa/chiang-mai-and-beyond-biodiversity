@@ -718,7 +718,8 @@ const speciesData = [
 
         photo: [
             "IMG_0813.JPG",
-            "IMG_0811.JPG"
+            "IMG_0811.JPG",
+            "IMG_0957 2.JPG"
         ],
 
         overview:

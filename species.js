@@ -349,7 +349,7 @@ const speciesData = [
             "IMG_1275.JPG",
             "IMG_1291.JPG",
             "IMG_1296.JPG",
-            "IMG_1495.JPG",
+            "IMG_1459.JPG",
             "IMG_1460.JPG"
         ],
 

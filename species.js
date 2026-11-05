@@ -345,7 +345,12 @@ const speciesData = [
             "IMG_0604 2.JPG",
             "IMG_0585 2.JPG",
             "IMG_1091.JPG",
-            "IMG_1094.JPG"
+            "IMG_1094.JPG",
+            "IMG_1275.JPG",
+            "IMG_1291.JPG",
+            "IMG_1296.JPG",
+            "IMG_1495.JPG",
+            "IMG_1460.JPG"
         ],
 
         overview:

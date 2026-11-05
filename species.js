@@ -1748,7 +1748,7 @@ function displaySpecies(species) {
             <div class="species-photo">
                 ${
                     item.photo && item.photo.length > 0
-                    ? `<img src="${item.photo[0]}" alt="${item.name}">`
+                    ? `<img src="${item.photo[0]}" alt="${item.name}" loading="lazy">`
                     : `<span>Species photograph</span>`
                 }
             </div>

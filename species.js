@@ -795,25 +795,17 @@ const speciesData = [
     {
 
     id: "orthomorpha-coarctata",
-
     name: "Common Asian Millipede",
-
     scientificName: "Orthomorpha coarctata",
-
     category: "Myriapods",
-
     type: "Millipede",
-
     family: "Paradoxosomatidae",
-
     habitat: "Gardens, leaf litter, and damp places",
-
+        
     photo: [
-
         "IMG_0546 2.JPG"
-
     ],
-
+        
     overview: "The Common Asian Millipede is a small millipede found in tropical environments. It usually stays close to the ground, especially in damp places.",
 
     identification: "Its body is dark brown to black and divided into many segments. Each body segment has small side extensions that give it a slightly flattened appearance.",
@@ -821,33 +813,23 @@ const speciesData = [
     ecology: "It feeds mainly on decaying leaves and other organic matter. It helps break down dead plant material and return nutrients to the soil.",
 
     distribution: "Native to Southeast Asia, this species has spread to many tropical and subtropical regions."
-
 },
 
 {
-
     id: "plagiozopelma-biseta",
-
     name: "Plagiozopelma biseta",
-
     scientificName: "Plagiozopelma biseta",
-
     category: "Arachnids",
-
     type: "Spider",
-
     family: "To be verified",
-
     habitat: "To be verified",
 
     photo: [
-
         "IMG_0682.JPG"
-
     ],
 
     overview: "Plagiozopelma biseta is a spider species whose identification should be checked against reliable taxonomic records. More detailed information depends on confirming the species.",
-
+    
     identification: "Spider identification often requires close examination of body shape, eye arrangement, and leg features. The species name should be confirmed using clear photographs or expert identification.",
 
     ecology: "Like other spiders, it is an arachnid rather than an insect. Its specific diet, hunting behaviour, and ecological role require further verification.",
@@ -1156,29 +1138,17 @@ const speciesData = [
 },
 
 {
-
     id: "apis-cerana",
-
     name: "Asian Honey Bee",
-
     scientificName: "Apis cerana",
-
     category: "Insects",
-
     type: "Bee",
-
     family: "Apidae",
-
     habitat: "Forests, gardens, and agricultural areas",
-
     photo: [
-
         "IMG_0896.JPG"
-
     ],
-
     overview: "The Asian Honey Bee is a social bee that lives in colonies. It is an important pollinator in forests, gardens, and agricultural landscapes.",
-
     identification: "It has a brown body with darker bands across the abdomen and a covering of fine hairs. Its appearance is similar to other honey bees, so size and markings should be checked together.",
 
     ecology: "Workers collect nectar and pollen, helping pollinate many flowering plants. Colonies build wax combs and communicate the location of food sources to other workers.",
@@ -1623,7 +1593,34 @@ const speciesData = [
 
         distribution:
             "Reported from parts of tropical Asia, including Southeast Asia. Its exact range should be checked against a reliable source, such as a regional wasp checklist or iNaturalist records."
-    }
+    },
+    {
+        id: "athyma-sp",
+        name: "Sergeant butterfly / Athyma sp.",
+        scientificName: "Athyma sp.",
+        category: "Insects",
+        type: "Butterfly",
+        family: "Nymphalidae",
+        habitat: "Forests, forest edges, shaded trails and wooded areas, often in hilly or lowland tropical regions",
+
+        photo: [
+            "IMG_0914 2.JPG",
+            "IMG_0912 2.JPG",
+            "IMG_0932 2.JPG"
+        ],
+
+        overview:
+            "Athyma is a genus of butterflies in the family Nymphalidae, commonly called sergeants or staff sergeants. They are medium-sized butterflies with dark wings marked by white, cream or orange bands. The exact species of this specimen is not yet confirmed.",
+
+        identification:
+            "Most Athyma butterflies have dark brown or black wings with pale bands across the forewings and hindwings. Colour, band shape and the underside pattern vary between species, and some species look very similar. A clear photo of both the upper and lower wings is usually needed to identify the species.",
+
+        ecology:
+            "Athyma butterflies live in forests and wooded areas, and they often glide with a few quick wingbeats between glides. Adults may rest on leaves, visit damp ground, or feed on fallen fruit and other natural sources. Their caterpillars feed on the leaves of various forest plants, depending on the species.",
+
+        distribution:
+            "The genus Athyma occurs across tropical and subtropical Asia, including Thailand. The distribution of this particular butterfly cannot be determined until the species is confirmed."
+    },
 
 ];
 

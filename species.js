@@ -1646,7 +1646,32 @@ const speciesData = [
 
         distribution:
             "Found in Thailand and parts of neighbouring mainland Southeast Asia, mainly in the central and eastern lowlands. Its exact range should be checked against a reliable source, such as eBird or a Thailand bird checklist."
-    }
+    },
+        {
+        id: "geopelia-striata",
+        name: "Zebra Dove",
+        scientificName: "Geopelia striata",
+        category: "Birds",
+        type: "Bird",
+        family: "Columbidae",
+        habitat: "Open country, farmland, grasslands, gardens, parks and areas near villages",
+
+        photo: [
+            "IMG_1053 2.JPG"
+        ],
+
+        overview:
+            "The Zebra Dove is a small, slender dove in the pigeon and dove family. It is named for the fine black and white barring on its neck, chest and sides. It is common around people and is well known for its soft, repeated cooing call.",
+
+        identification:
+            "It has a grey-brown body finely barred with black and white, a pinkish chest, and a blue-grey face with a patch of pale blue skin around the eye. The tail is long and narrow with white edges, which show in flight. It is smaller and more delicate than most other doves.",
+
+        ecology:
+            "This dove feeds mostly on the ground, eating small seeds and grains, and is often seen walking in pairs along roads, lawns and fields. It builds a thin, simple nest of twigs in low trees or shrubs. In parts of Southeast Asia it is also kept as a pet for its calls.",
+
+        distribution:
+            "Native to Southeast Asia, including Thailand, Malaysia, Singapore and Indonesia. It has also been introduced to other regions, such as Hawaii and parts of Australia."
+    },
 ];
 
 // ==================================================

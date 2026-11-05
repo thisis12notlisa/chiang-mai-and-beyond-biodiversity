@@ -1598,7 +1598,32 @@ const speciesData = [
 
         distribution:
             "Recorded from parts of mainland Southeast Asia, including Thailand. Its exact range should be checked against a reliable source, such as MolluscaBase."
-}
+},
+{
+        id: "ropalidia-sumatrae",
+        name: "Ropalidia sumatrae",
+        scientificName: "Ropalidia sumatrae",
+        category: "Insects",
+        type: "Wasp",
+        family: "Vespidae",
+        habitat: "Forest edges, gardens, shrubs, buildings and other sheltered places where nests can be attached",
+
+        photo: [
+            "IMG_0884 2.JPG"
+        ],
+
+        overview:
+            "Ropalidia sumatrae is a paper wasp in the family Vespidae. Paper wasps build nests from chewed plant fibres mixed with saliva, giving the nest a papery texture. It is part of the genus Ropalidia, which is widespread in tropical Asia.",
+
+        identification:
+            "Ropalidia wasps usually have a slender body with a narrow waist and a mix of brown, black and yellow markings. The exact pattern and the shape of the body segments help separate species, but similar Ropalidia species can look alike. A close photo of the head, thorax and abdomen helps confirm the species.",
+
+        ecology:
+            "Paper wasps live in social colonies and build open nests made of paper-like material, often attached to branches, leaves or the underside of ledges. Adults hunt small insects and caterpillars to feed the larvae, and they also visit flowers and other sweet food sources. They usually defend the nest, so avoid disturbing it.",
+
+        distribution:
+            "Reported from parts of tropical Asia, including Southeast Asia. Its exact range should be checked against a reliable source, such as a regional wasp checklist or iNaturalist records."
+    }
 
 ];
 

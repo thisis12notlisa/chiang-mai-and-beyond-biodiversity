@@ -1573,6 +1573,31 @@ const speciesData = [
 
         distribution:
             "Native to parts of Southeast Asia, including Malaysia and Indonesia, and recorded in Thailand. It has also been introduced to regions such as Hawaii, where it has become established."
+},
+{
+        id: "pupina-artata",
+        name: "Pupina artata",
+        scientificName: "Pupina artata",
+        category: "Mollusks",
+        type: "Snail",
+        family: "Pupinidae",
+        habitat: "Forest leaf litter, shaded damp ground, and limestone areas",
+
+        photo: [
+            "IMG_0493.JPG"
+        ],
+
+        overview:
+            "Pupina artata is a small land snail in the family Pupinidae. Snails in this family have a smooth, glossy shell and a lid-like structure called an operculum that closes the shell opening. It lives on the ground in humid, shaded habitats in tropical Asia.",
+
+        identification:
+            "The shell is small, smooth and shiny, often pale yellow to light brown and slightly translucent. Pupinid snails have a distinctive notch or groove near the shell opening, and the operculum can seal the shell when the snail withdraws. Shell shape and the opening are the best features for identifying it.",
+
+        ecology:
+            "This snail lives in leaf litter, soil and rocky areas in forests, and it is usually more active in damp conditions. It feeds mainly on decaying plant material and microorganisms on the ground. Like other land snails, it recycles nutrients in the forest floor.",
+
+        distribution:
+            "Recorded from parts of mainland Southeast Asia, including Thailand. Its exact range should be checked against a reliable source, such as MolluscaBase."
 }
 
 ];

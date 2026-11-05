@@ -1690,7 +1690,14 @@ const speciesData = [
             "The African Giant Snail is one of the largest land snails in the world. It is native to East Africa but has been spread by people to many tropical and subtropical regions, including Southeast Asia, where it is considered an invasive pest.",
 
         identification:
-            "It has a large, cone-shaped shell, often 7 to 10 cm long or more, with brown and cream or
+            "It has a large, cone-shaped shell, often 7 to 10 cm long or more, with brown and cream or yellowish bands. The soft body is usually brown with darker patterns. The shell is taller than it is wide and has several whorls ending in a pointed tip.",
+
+        ecology:
+            "This snail is most active at night and after rain, and it hides in damp, shaded places during the day. It eats a wide range of plants, including crops and garden plants, and it can also eat decaying matter. It can carry the rat lungworm parasite, so avoid handling it with bare hands and wash your hands afterwards.",
+
+        distribution:
+            "Native to eastern Africa. It has been introduced to many parts of Asia, the Pacific and the Americas, and it is widespread in Thailand."
+    }
 ];
 
 // ==================================================

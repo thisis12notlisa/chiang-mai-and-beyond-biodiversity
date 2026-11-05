@@ -1672,6 +1672,25 @@ const speciesData = [
         distribution:
             "Native to Southeast Asia, including Thailand, Malaysia, Singapore and Indonesia. It has also been introduced to other regions, such as Hawaii and parts of Australia."
     },
+        {
+        id: "lissachatina-fulica",
+        name: "African Giant Snail",
+        scientificName: "Lissachatina fulica",
+        category: "Mollusks",
+        type: "Snail",
+        family: "Achatinidae",
+        habitat: "Gardens, farmland, roadsides, forest edges and disturbed areas, especially in warm, humid places",
+
+        photo: [
+            "IMG_1059 2.JPG",
+            "IMG_1110 2.JPG"
+        ],
+
+        overview:
+            "The African Giant Snail is one of the largest land snails in the world. It is native to East Africa but has been spread by people to many tropical and subtropical regions, including Southeast Asia, where it is considered an invasive pest.",
+
+        identification:
+            "It has a large, cone-shaped shell, often 7 to 10 cm long or more, with brown and cream or
 ];
 
 // ==================================================

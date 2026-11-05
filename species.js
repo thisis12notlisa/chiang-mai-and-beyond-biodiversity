@@ -1548,6 +1548,32 @@ const speciesData = [
     distribution: "Widely distributed across Europe and Asia, including Thailand and other parts of East and Southeast Asia."
 
 },
+{
+        id: "parmarion-martensi",
+        name: "Yellow-shelled Semi-slug",
+        scientificName: "Parmarion martensi",
+        category: "Mollusks",
+        type: "Semi-slug",
+        family: "Ariophantidae",
+        habitat: "Gardens, forest edges, damp vegetation and other humid, shaded areas",
+
+        photo: [
+            "IMG_0475.JPG",
+            "IMG_1083 2.JPG"
+        ],
+
+        overview:
+            "The Yellow-shelled Semi-slug is a land mollusc that looks like a slug but has a small, yellowish shell on its back. It is native to Southeast Asia and has spread to other warm regions, where it is sometimes considered an invasive species.",
+
+        identification:
+            "It has a soft, elongated body, usually brown to grey, with a small yellow to amber shell sitting on the back. Unlike a true snail, it is too small to retreat into the shell, which is why it is called a semi-slug. A pale stripe may run along the body, and colour can vary between individuals.",
+
+        ecology:
+            "This species is most active at night or in damp weather and rests in sheltered places during dry or sunny conditions. It feeds on plants, fungi and decaying material. It can carry the rat lungworm parasite, so avoid touching it with bare hands and wash your hands after handling garden plants.",
+
+        distribution:
+            "Native to parts of Southeast Asia, including Malaysia and Indonesia, and recorded in Thailand. It has also been introduced to regions such as Hawaii, where it has become established."
+}
 
 ];
 
